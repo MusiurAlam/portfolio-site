@@ -7,8 +7,6 @@ nav {
     top: 0;
     right: 0;
 
-    // background-color: #000000;
-
     backdrop-filter: blur(5px);
     box-shadow: 0 5px 15px #020000c0;
 
@@ -85,5 +83,9 @@ nav {
 .nav__rightdiv {
     img {
         max-width: 15px;
+    }
+
+    @media (max-width: 980px) {
+        display: none;
     }
 }
