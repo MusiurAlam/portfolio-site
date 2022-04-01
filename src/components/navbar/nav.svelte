@@ -5,7 +5,7 @@
     <div class="nav__leftdiv">
       <h1>
         <a href="/">
-          <img src="/static/icons/BrandIcon.svg" alt="brandlogo" />
+          <img src="/icons/BrandIcon.svg" alt="brandlogo" />
         </a>
       </h1>
 
@@ -19,14 +19,14 @@
     <!-- right div  -->
     <div class="nav__middlediv">
       <a href="/">
-        <img src="/static/icons/linkedin_gray.svg" alt="linkedin_profile" />
+        <img src="/icons/linkedin_gray.svg" alt="linkedin_profile" />
       </a>
       <a href="/">
-        <img src="/static/icons/GitHubGray.svg" alt="github_profile" />
+        <img src="/icons/GitHubGray.svg" alt="github_profile" />
       </a>
       <div class="nav__rightdiv">
         <a href="/about" class="btn_outline_white">
-          Resume <img src="/static/icons/right_arrow.svg" alt="right_arrow" />
+          Resume <img src="/icons/right_arrow.svg" alt="right_arrow" />
         </a>
       </div>
     </div>

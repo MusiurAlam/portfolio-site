@@ -13,11 +13,11 @@
 
     <div class="hs__btn_container">
       <a href="/" class="btn_primary">
-        Contact <img src="/static/icons/right_arrow.svg" alt="right_arrow" />
+        Contact <img src="/icons/right_arrow.svg" alt="right_arrow" />
       </a>
 
       <a href="/about" class="btn_outline_white">
-        Learn more <img src="/static/icons/right_arrow.svg" alt="right_arrow" />
+        Learn more <img src="/icons/right_arrow.svg" alt="right_arrow" />
       </a>
     </div>
   </div>
