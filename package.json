@@ -1,0 +1,23 @@
+{
+  "name": "test-kit",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "svelte-kit dev",
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0",
+    "sass": "^1.46.0",
+    "svelte-preprocess": "^4.10.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}
