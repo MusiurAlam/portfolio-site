@@ -1,0 +1,26 @@
+@import "../../app.scss";
+@import "../../variables.scss";
+
+footer {
+    @extend .container, .section;
+
+    // position: absolute;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    text-align: center;
+
+    p {
+        font-weight: 600;
+
+        span,
+        a {
+            color: orangered;
+            text-decoration: none;
+
+            &:hover {
+                color: #007bff;
+            }
+        }
+    }
+}

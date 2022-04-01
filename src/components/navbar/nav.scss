@@ -1,0 +1,89 @@
+@import "../../app.scss";
+@import "../../variables.scss";
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    // background-color: #000000;
+
+    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 15px #020000c0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+
+        img {
+            max-width: 80px;
+            min-height: 50px;
+            height: 40px;
+        }
+    }
+}
+
+.nav__links {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+
+    @media (max-width: 980px) {
+        display: none;
+    }
+}
+
+.nav__leftdiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 2rem;
+
+    h1 {
+        border-right: 1px solid #919191;
+        padding-right: 2rem;
+        margin: 0.2rem 0;
+    }
+
+    a {
+        color: #777390;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.nav__middlediv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    column-gap: 2rem;
+
+    img {
+        max-width: 40px;
+
+        fill: #fff;
+        opacity: 0.7;
+
+        &:hover {
+            fill: #fff;
+            opacity: 1;
+        }
+    }
+}
+
+.nav__rightdiv {
+    img {
+        max-width: 15px;
+    }
+}
