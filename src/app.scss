@@ -20,11 +20,27 @@ a {
     }
 }
 
+.container__left {
+    margin-left: 10%;
+}
+
+.container__right {
+    margin-right: 10%;
+}
+
 .section {
     padding: {
         top: 5rem;
         bottom: 5rem;
     }
+}
+
+.section__top {
+    margin-top: 5rem;
+}
+
+.section__bottom {
+    margin-bottom: 5rem;
 }
 
 .herogap {

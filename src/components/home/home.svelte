@@ -24,7 +24,7 @@
 </section>
 
 <!-- about section -->
-<section>About section</section>
+<section class="about_section">About section</section>
 
 <!-- works section -->
 <section>Works section</section>
