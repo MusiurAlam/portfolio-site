@@ -149,7 +149,7 @@
     }
 }
 
-.curve {
+.curve__up {
     position: absolute;
     left: 0;
     top: 0;
@@ -207,10 +207,38 @@
     border-left: 1px solid #dddddd;
     padding: {
         top: 4rem;
-        bottom: 4rem;
+        bottom: 8rem;
     }
 }
 
 .about_section__fifth_section__flexbox > div {
     max-width: 50%;
 }
+
+// sixth section of about section
+
+.about_section__sixth_section {
+    padding: {
+        // top: 5rem;
+        bottom: 5rem;
+        left: 4.4rem;
+    }
+
+    position: relative;
+}
+
+.curve__down {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    transform: rotateY(180deg);
+    margin-top: 1.2rem;
+}
+
+.about_section__tail {
+    min-height: 5rem;
+    // border-left: 1px solid #dddddd;
+}
+
+// about section ends

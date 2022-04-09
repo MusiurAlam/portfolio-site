@@ -20,6 +20,14 @@
     circularIcon: "/icons/right_arrow_0.svg",
     type: "command",
   };
+
+  const GitCommandProperties2 = {
+    label: "git merge feature/about-me",
+    icon: "/icons/GitBranch_ICON.svg",
+    circularIcon: "/icons/right_arrow_0.svg",
+    type: "command",
+  };
+
   const GitParagraphProperties1 = {
     text: "As a full-stack software engineer I enjoy designing highly interactiveuser interfaces that enthuse customers and creating scalable, reliablebackend solutions - but also caring about the other parts that areneeded for a successful software project: Consistency in design, goodplanning of UI and thinking how it affects the UX, Search EngineOptimization and maintaining the software after initial release.",
     icon: "/icons/User_ICON.svg",
@@ -84,7 +92,7 @@
     <GitLabel properties={GitCommandProperties1} />
 
     <div class="about_section__second_section">
-      <img src="/home/curve.svg" alt="curve" class="curve" />
+      <img src="/home/curve.svg" alt="curve" class="curve__up" />
       <GitLabel properties={GitLabelProperties1} />
 
       <div class="about_section__second_section__flexbox">
@@ -118,6 +126,14 @@
         </div>
       </div>
     </div>
+    <div class="about_section__sixth_section">
+      <GitLabel properties={GitCommandProperties2} />
+      <img src="/home/curve.svg" alt="curve" class="curve__down" />
+    </div>
+
+    <GitLabel properties={GitLabelProperties} />
+
+    <div class="about_section__tail" />
   </div>
 </section>
 
