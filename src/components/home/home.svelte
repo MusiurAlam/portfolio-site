@@ -1,6 +1,7 @@
 <script>
   import GitLabel from "../mini/git_label/git_label.svelte";
   import GitParagraph from "../mini/git_paragraph/git_paragraph.svelte";
+
   const GitLabelProperties = {
     label: "Develop",
     icon: "/icons/GitBranch_ICON.svg",
@@ -16,14 +17,14 @@
 
   const GitCommandProperties1 = {
     label: "git checkout -b feature/about-me",
-    icon: "/icons/GitBranch_ICON.svg",
+    // icon: "/icons/GitBranch_ICON.svg",
     circularIcon: "/icons/right_arrow_0.svg",
     type: "command",
   };
 
   const GitCommandProperties2 = {
     label: "git merge feature/about-me",
-    icon: "/icons/GitBranch_ICON.svg",
+    // icon: "/icons/GitBranch_ICON.svg",
     circularIcon: "/icons/right_arrow_0.svg",
     type: "command",
   };
