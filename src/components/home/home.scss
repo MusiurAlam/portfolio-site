@@ -70,8 +70,147 @@
 //about section styles
 
 .about_section {
-    @extend .section__top, .container__left;
+    @extend .section__top;
+    background-color: #f4f5f6;
+}
 
-    border-left: 10px solid rgb(158, 14, 14);
-    background: green;
+.about_section > div {
+    @extend .container__left;
+
+    border-left: 1px solid #dddddd;
+}
+
+//first section of about section
+.about_section__first_section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: {
+        top: 2rem;
+        left: 2rem;
+    }
+
+    column-gap: 2.2rem;
+}
+
+.alan_cooper__quate {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    min-width: 50%;
+
+    p {
+        color: $color-primary;
+        font-weight: 700;
+        // max-width: 50%;
+        padding-bottom: 3rem;
+    }
+
+    span {
+        font-weight: 400;
+        color: $color-primary;
+    }
+}
+
+//second section of about section
+
+.about_section__second_section {
+    padding: {
+        top: 5rem;
+        left: 4.4rem;
+    }
+
+    position: relative;
+}
+
+.about_section__second_section__flexbox {
+    margin-top: -0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left: 1px solid #dddddd;
+    padding: {
+        top: 2rem;
+        left: 2rem;
+    }
+}
+
+.as__ss__f__about_me {
+    min-width: 50%;
+
+    padding-bottom: 3rem;
+
+    h2 {
+        span {
+            background: linear-gradient(to right, #8911e7 30%, #ff0000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
+.curve {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+// thired section of about section
+
+.about_section__thired_section__flexbox {
+    @extend .container__right;
+    margin-top: -0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left: 1px solid #dddddd;
+    padding: {
+        top: 4rem;
+        bottom: 4rem;
+    }
+}
+
+.about_section__thired_section__flexbox > div {
+    max-width: 50%;
+}
+
+// fourth section of about section
+
+.about_section__fourth_section__flexbox {
+    @extend .container__right;
+    margin-top: -0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left: 1px solid #dddddd;
+    padding: {
+        top: 4rem;
+        bottom: 4rem;
+    }
+}
+
+.about_section__fourth_section__flexbox > div {
+    max-width: 50%;
+}
+
+// fifth section of about section
+
+.about_section__fifth_section__flexbox {
+    @extend .container__right;
+    margin-top: -0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left: 1px solid #dddddd;
+    padding: {
+        top: 4rem;
+        bottom: 4rem;
+    }
+}
+
+.about_section__fifth_section__flexbox > div {
+    max-width: 50%;
 }

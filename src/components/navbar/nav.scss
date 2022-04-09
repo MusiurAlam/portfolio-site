@@ -6,9 +6,10 @@ nav {
     left: 0;
     top: 0;
     right: 0;
+    z-index: 100;
 
-    backdrop-filter: blur(20px);
-    background-color: #00000093;
+    // backdrop-filter: blur(20px);
+    background-color: #000000;
     box-shadow: 0 5px 15px #020000c0;
 
     display: flex;
@@ -46,7 +47,6 @@ nav {
     column-gap: 2rem;
 
     h1 {
-        // border-right: 1px solid #919191;
         padding-right: 2rem;
         margin: 0.2rem 0;
     }
