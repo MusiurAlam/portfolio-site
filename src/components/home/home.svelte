@@ -17,14 +17,14 @@
 
   const GitCommandProperties1 = {
     label: "git checkout -b feature/about-me",
-    // icon: "/icons/GitBranch_ICON.svg",
+    icon: "",
     circularIcon: "/icons/right_arrow_0.svg",
     type: "command",
   };
 
   const GitCommandProperties2 = {
     label: "git merge feature/about-me",
-    // icon: "/icons/GitBranch_ICON.svg",
+    icon: "",
     circularIcon: "/icons/right_arrow_0.svg",
     type: "command",
   };
