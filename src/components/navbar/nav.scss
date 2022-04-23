@@ -8,9 +8,9 @@ nav {
     right: 0;
     z-index: 100;
 
-    // backdrop-filter: blur(20px);
-    background-color: #000000;
-    box-shadow: 0 5px 15px #020000c0;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(to right, #001a05, #00180d);
+    box-shadow: 0 5px 15px #000000b5;
 
     display: flex;
     justify-content: space-between;

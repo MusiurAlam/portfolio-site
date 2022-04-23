@@ -241,3 +241,129 @@
 }
 
 // about section ends
+
+// works section
+
+.works_section {
+    // @extend .section__top;
+    background-color: #f4f5f6;
+
+    background-image: url("/static/home/workBackground.svg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.works_section > div {
+    @extend .container__left, .section__top;
+
+    border-left: 1px solid #dddddd;
+}
+
+.works_card__container {
+    // background-color: white;
+    padding: {
+        left: 2rem;
+        bottom: 5rem;
+    }
+    border-left: 1px solid #dddddd;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+// works section ends
+
+// articals and blog section
+
+.artical_section {
+    background-color: #f4f5f6;
+}
+
+.artical_section > div {
+    @extend .container__left, .section__top;
+
+    border-left: 1px solid #dddddd;
+}
+
+// artical section ends
+
+// contact section
+
+.contact_section {
+    // @extend .section__top;
+    background-color: #f4f5f6;
+
+    background-image: url("/static/home/workBackground.svg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact_section > div {
+    @extend .container__left;
+}
+
+.contact_empty__space1 {
+    @extend .section__top;
+    // border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.contact_empty__space2 {
+    @extend .section__bottom;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.contact_form_container {
+    @extend .section;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_form {
+    width: 50%;
+    max-width: 800px;
+    min-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 2rem;
+
+    padding: 3rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+
+    input {
+        outline: none;
+        border: 1px solid white;
+
+        width: 100%;
+        padding: 0.3rem 1rem;
+        border-radius: 8px;
+    }
+
+    textarea {
+        outline: none;
+        border: 1px solid white;
+
+        width: 100%;
+        padding: 0.3rem 1rem;
+        border-radius: 8px;
+
+        // width: 300px;
+        height: 150px;
+    }
+}

@@ -75,6 +75,8 @@ a {
     img {
         max-width: 15px;
     }
+
+    cursor: pointer;
 }
 
 .btn_primary {
@@ -91,4 +93,14 @@ a {
     border: 1px solid white;
     background-color: #00000000;
     color: white;
+}
+
+.contact_submit_btn {
+    min-width: 200px;
+    display: inline-block;
+}
+
+.form_error_style {
+    background-color: white;
+    color: red;
 }
