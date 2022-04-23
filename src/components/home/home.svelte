@@ -80,6 +80,12 @@
 
       typeof document !== "undefined" &&
         document.getElementById("contact_form").reset();
+
+      ContactFormData = {
+        name: "",
+        email: "",
+        message: "",
+      };
     } else {
       ContactFormErrors = tempErr;
     }
